@@ -2,13 +2,7 @@
 
 # Purpose
 
-This repository is meant to be a template for building your own custom Universal Blue image. This template is the recommended way to make customizations to any image published by the Universal Blue Project:
-- [Aurora](https://getaurora.dev/)
-- [Bazzite](https://bazzite.gg/)
-- [Bluefin](https://projectbluefin.io/)
-- [uCore](https://projectucore.io/)
-- [main](https://github.com/ublue-os/main/)
-- [hwe](https://github.com/ublue-os/hwe/) 
+This repository is meant to be a template for building your own custom Universal Blue image.
 
 This template includes a Containerfile and a Github workflow for building the container image. As soon as the workflow is enabled in your repository, it will build the container image and push it to the Github Container Registry.
 
@@ -19,10 +13,9 @@ Working knowledge in the following topics:
 - Containers
   - https://www.youtube.com/watch?v=SnSH8Ht3MIc
   - https://www.mankier.com/5/Containerfile
-- rpm-ostree
-  - https://coreos.github.io/rpm-ostree/container/
-- Fedora Silverblue (and other Fedora Atomic variants)
-  - https://docs.fedoraproject.org/en-US/fedora-silverblue/
+- bootc
+  -  https://docs.fedoraproject.org/en-US/bootc/
+  -  https://containers.github.io/bootc/
 - Github Workflows
   - https://docs.github.com/en/actions/using-workflows
 

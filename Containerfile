@@ -7,7 +7,7 @@ RUN mkdir -p /var/lib/alternatives && \
     /tmp/build.sh && \
     ostree container commit
 
-RUN --mount=type=bind,from=config,src=/rpms,dst=/tmp/rpms ln -sf /run /var/run && \
+RUN ln -sf /run /var/run && \
     mkdir -p /var/lib/alternatives && \
     /tmp/build.sh && \
     dnf clean all && \
